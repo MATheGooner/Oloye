@@ -1,0 +1,31 @@
+# Dependencies and package manager caches
+node_modules/
+.pnpm-store/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated application output and runtime storage
+.svelte-kit/
+.medusa/
+build/
+dist/
+.cache/
+coverage/
+apps/commerce/static/*
+!apps/commerce/static/.gitkeep
+
+# Local logs and editor/OS files
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

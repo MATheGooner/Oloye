@@ -1,0 +1,362 @@
+{
+  "presence": {
+    "key": "presence",
+    "width": 1800,
+    "height": 2185,
+    "photographer": "David Kwewum",
+    "source": "https://www.pexels.com/photo/man-in-beige-jacket-posing-in-studio-17842463/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/17842463/pexels-photo-17842463.jpeg"
+  },
+  "tailoring": {
+    "key": "tailoring",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Krix films",
+    "source": "https://www.pexels.com/photo/stylish-man-in-beige-suit-with-black-bag-35633110/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/35633110/pexels-photo-35633110.jpeg"
+  },
+  "after-hours": {
+    "key": "after-hours",
+    "width": 1800,
+    "height": 1198,
+    "photographer": "Rob Ruth",
+    "source": "https://www.pexels.com/photo/woman-in-a-black-dress-leaning-on-a-cube-18160211/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/18160211/pexels-photo-18160211.jpeg"
+  },
+  "jersey": {
+    "key": "jersey",
+    "width": 1800,
+    "height": 2250,
+    "photographer": "Marlon Schmeiski",
+    "source": "https://www.pexels.com/photo/man-in-summer-tracksuit-20236325/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/20236325/pexels-photo-20236325.jpeg"
+  },
+  "menswear": {
+    "key": "menswear",
+    "width": 1800,
+    "height": 2250,
+    "photographer": "Orione Conceição",
+    "source": "https://images.pexels.com/photos/7527609/pexels-photo-7527609.jpeg",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/7527609/pexels-photo-7527609.jpeg"
+  },
+  "accessories": {
+    "key": "accessories",
+    "width": 1800,
+    "height": 2657,
+    "photographer": "Albert Ogunde",
+    "source": "https://www.pexels.com/photo/portrait-of-a-male-model-wearing-a-brown-jacket-crouching-in-front-of-a-leather-bag-16110797/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/16110797/pexels-photo-16110797.jpeg"
+  },
+  "womenswear": {
+    "key": "womenswear",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Mikhail Nilov",
+    "source": "https://images.pexels.com/photos/7624800/pexels-photo-7624800.jpeg",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/7624800/pexels-photo-7624800.jpeg"
+  },
+  "loafers": {
+    "key": "loafers",
+    "width": 1800,
+    "height": 2250,
+    "photographer": "Márcio Carvalho",
+    "source": "https://www.pexels.com/photo/leather-footwear-on-black-background-25381178/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/25381178/pexels-photo-25381178.jpeg"
+  },
+  "trainers": {
+    "key": "trainers",
+    "width": 1800,
+    "height": 2321,
+    "photographer": "HamZa NOUASRIA",
+    "source": "https://www.pexels.com/photo/white-sports-shoe-balancing-on-tip-12628401/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/12628401/pexels-photo-12628401.jpeg"
+  },
+  "sneakers": {
+    "key": "sneakers",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Wolrider YURTSEVEN",
+    "source": "https://www.pexels.com/photo/person-wearing-sneakers-18255342/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/18255342/pexels-photo-18255342.jpeg"
+  },
+  "sneakers-detail": {
+    "key": "sneakers-detail",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Wolrider YURTSEVEN",
+    "source": "https://www.pexels.com/photo/close-up-of-a-sports-shoe-18255344/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/18255344/pexels-photo-18255344.jpeg"
+  },
+  "brogues": {
+    "key": "brogues",
+    "width": 1800,
+    "height": 1200,
+    "photographer": "Tima Miroshnichenko",
+    "source": "https://www.pexels.com/photo/close-up-photo-of-a-brown-leather-shoes-6765524/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/6765524/pexels-photo-6765524.jpeg"
+  },
+  "brogues-detail": {
+    "key": "brogues-detail",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Tima Miroshnichenko",
+    "source": "https://www.pexels.com/photo/brown-leather-shoes-on-a-pedestal-6764989/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/6764989/pexels-photo-6764989.jpeg"
+  },
+  "grey-suit": {
+    "key": "grey-suit",
+    "width": 1800,
+    "height": 2250,
+    "photographer": "Bello Olamide",
+    "source": "https://www.pexels.com/photo/a-man-in-gray-suit-posing-8835680/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/8835680/pexels-photo-8835680.jpeg"
+  },
+  "textured-vest": {
+    "key": "textured-vest",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Oranduu ( Danilo Silva )",
+    "source": "https://www.pexels.com/photo/man-with-afro-hair-13315065/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/13315065/pexels-photo-13315065.jpeg"
+  },
+  "graphic-knit": {
+    "key": "graphic-knit",
+    "width": 1800,
+    "height": 2159,
+    "photographer": "Okay Imagery",
+    "source": "https://www.pexels.com/photo/studio-shot-of-man-in-sweater-18814061/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/18814061/pexels-photo-18814061.jpeg"
+  },
+  "blue-knit": {
+    "key": "blue-knit",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "cottonbro studio",
+    "source": "https://www.pexels.com/photo/a-man-in-a-blue-turtleneck-sweater-8527552/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/8527552/pexels-photo-8527552.jpeg"
+  },
+  "ivory-tracksuit": {
+    "key": "ivory-tracksuit",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Monstera Production",
+    "source": "https://www.pexels.com/photo/black-man-in-stylish-white-sportswear-6311119/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/6311119/pexels-photo-6311119.jpeg"
+  },
+  "sand-trench": {
+    "key": "sand-trench",
+    "width": 1800,
+    "height": 2699,
+    "photographer": "cottonbro studio",
+    "source": "https://www.pexels.com/photo/a-man-wearing-beige-coat-standing-5120179/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/5120179/pexels-photo-5120179.jpeg"
+  },
+  "studio-hoodie": {
+    "key": "studio-hoodie",
+    "width": 1800,
+    "height": 1200,
+    "photographer": "Monstera Production",
+    "source": "https://www.pexels.com/photo/cool-young-black-man-in-hoodie-standing-in-studio-with-hands-in-pockets-6311231/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/6311231/pexels-photo-6311231.jpeg"
+  },
+  "leather-jacket": {
+    "key": "leather-jacket",
+    "width": 1800,
+    "height": 2250,
+    "photographer": "Keith Abonyo",
+    "source": "https://www.pexels.com/photo/portrait-of-man-wearing-leather-jacket-5916443/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/5916443/pexels-photo-5916443.jpeg"
+  },
+  "noir-denim": {
+    "key": "noir-denim",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "EJ Abene",
+    "source": "https://www.pexels.com/photo/a-man-in-black-vest-14673591/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/14673591/pexels-photo-14673591.jpeg"
+  },
+  "denim-shirt": {
+    "key": "denim-shirt",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Sydney Sang",
+    "source": "https://www.pexels.com/photo/casual-male-fashion-in-denim-studio-shoot-30133695/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/30133695/pexels-photo-30133695.jpeg"
+  },
+  "pleated-trousers": {
+    "key": "pleated-trousers",
+    "width": 1800,
+    "height": 2249,
+    "photographer": "Multi Motion Film Works",
+    "source": "https://www.pexels.com/photo/standing-man-in-beige-pants-and-green-sweater-17938982/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/17938982/pexels-photo-17938982.jpeg"
+  },
+  "indigo-denim": {
+    "key": "indigo-denim",
+    "width": 1800,
+    "height": 2250,
+    "photographer": "Orione Conceição",
+    "source": "https://www.pexels.com/photo/stylish-black-man-in-trendy-outfit-standing-and-checking-time-in-studio-7527611/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/7527611/pexels-photo-7527611.jpeg"
+  },
+  "sculpted-blazer": {
+    "key": "sculpted-blazer",
+    "width": 1800,
+    "height": 1198,
+    "photographer": "Angel Sanchez",
+    "source": "https://www.pexels.com/photo/female-model-wearing-a-black-overcoat-21602060/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/21602060/pexels-photo-21602060.jpeg"
+  },
+  "wrap-dress": {
+    "key": "wrap-dress",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Anna Tarazevich",
+    "source": "https://www.pexels.com/photo/woman-in-brown-dress-holding-her-knee-4926707/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/4926707/pexels-photo-4926707.jpeg"
+  },
+  "city-coat": {
+    "key": "city-coat",
+    "width": 1800,
+    "height": 1200,
+    "photographer": "Marcelo Chagas",
+    "source": "https://www.pexels.com/photo/stylish-black-woman-with-hands-on-head-6151199/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/6151199/pexels-photo-6151199.jpeg"
+  },
+  "fluid-trousers": {
+    "key": "fluid-trousers",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Kwesi Badu",
+    "source": "https://www.pexels.com/photo/a-woman-in-black-sleeveless-shirt-and-black-pants-11340612/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/11340612/pexels-photo-11340612.jpeg"
+  },
+  "cloud-trainer": {
+    "key": "cloud-trainer",
+    "width": 1800,
+    "height": 1800,
+    "photographer": "José Martin Segura Benites",
+    "source": "https://www.pexels.com/photo/a-pair-of-white-sneakers-hanging-from-a-rope-27204251/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/27204251/pexels-photo-27204251.jpeg"
+  },
+  "essential-knit": {
+    "key": "essential-knit",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Joshua Mcknight",
+    "source": "https://www.pexels.com/photo/woman-in-white-blouse-and-black-pants-photo-3290243/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/3290243/pexels-photo-3290243.jpeg"
+  },
+  "noir-jeans": {
+    "key": "noir-jeans",
+    "width": 1800,
+    "height": 2250,
+    "photographer": "Ali Drabo",
+    "source": "https://www.pexels.com/photo/woman-wearing-black-shirt-and-black-jeans-14297225/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/14297225/pexels-photo-14297225.jpeg"
+  },
+  "downtown-denim": {
+    "key": "downtown-denim",
+    "width": 1800,
+    "height": 2398,
+    "photographer": "Sherman Trotz",
+    "source": "https://www.pexels.com/photo/black-fashion-model-wearing-denim-clothes-20418025/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/20418025/pexels-photo-20418025.jpeg"
+  },
+  "canvas-sneaker": {
+    "key": "canvas-sneaker",
+    "width": 1800,
+    "height": 1547,
+    "photographer": "Jeffrey Jeremiah",
+    "source": "https://www.pexels.com/photo/close-up-of-sneakers-on-table-13924826/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/13924826/pexels-photo-13924826.jpeg"
+  },
+  "ankle-boots": {
+    "key": "ankle-boots",
+    "width": 1800,
+    "height": 1800,
+    "photographer": "José Martin Segura Benites",
+    "source": "https://www.pexels.com/photo/botin-negro-27204272/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/27204272/pexels-photo-27204272.jpeg"
+  },
+  "studio-tote": {
+    "key": "studio-tote",
+    "width": 1800,
+    "height": 2546,
+    "photographer": "Muneeb Malhotra",
+    "source": "https://www.pexels.com/photo/gray-bag-with-handles-23223851/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/23223851/pexels-photo-23223851.jpeg"
+  },
+  "chelsea-boots": {
+    "key": "chelsea-boots",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Daniel & Hannah Snipes",
+    "source": "https://www.pexels.com/photo/black-leather-chelsea-boots-on-rustic-shelf-35654955/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/35654955/pexels-photo-35654955.jpeg"
+  },
+  "textured-belt": {
+    "key": "textured-belt",
+    "width": 1800,
+    "height": 1200,
+    "photographer": "BELTLEY COM",
+    "source": "https://www.pexels.com/photo/elegant-brown-leather-belt-with-texture-close-up-35392734/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/35392734/pexels-photo-35392734.jpeg"
+  },
+  "classic-watch": {
+    "key": "classic-watch",
+    "width": 1800,
+    "height": 1350,
+    "photographer": "Rotate Watches",
+    "source": "https://www.pexels.com/photo/close-up-shot-of-elegant-analog-wristwatch-5895646/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/5895646/pexels-photo-5895646.jpeg"
+  },
+  "perspective-eyewear": {
+    "key": "perspective-eyewear",
+    "width": 1800,
+    "height": 2700,
+    "photographer": "Albert Ogunde",
+    "source": "https://www.pexels.com/photo/portrait-of-a-male-model-wearing-sunglasses-and-gray-clothes-16110800/",
+    "license": "https://www.pexels.com/license/",
+    "original": "https://images.pexels.com/photos/16110800/pexels-photo-16110800.jpeg"
+  }
+}

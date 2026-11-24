@@ -1,0 +1,20 @@
+{
+  "name": "oloye",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OLOYE commerce platform — a Bitmason Labs portfolio project",
+  "packageManager": "pnpm@10.34.9",
+  "engines": { "node": ">=24.20.0 <25", "pnpm": ">=10.34.9 <11" },
+  "scripts": {
+    "dev": "pnpm --dir apps/storefront dev",
+    "dev:storefront": "pnpm --dir apps/storefront dev",
+    "dev:commerce": "pnpm --dir apps/commerce dev",
+    "check": "pnpm --filter @oloye/commerce check && pnpm --filter @oloye/storefront check",
+    "build": "pnpm --filter @oloye/commerce build && pnpm --filter @oloye/storefront build",
+    "db:migrate": "pnpm --filter @oloye/commerce db:migrate",
+    "infra:up": "node infra/compose.mjs up -d --wait",
+    "infra:down": "node infra/compose.mjs down",
+    "infra:status": "node infra/compose.mjs ps",
+    "infra:logs": "node infra/compose.mjs logs -f postgres"
+  }
+}

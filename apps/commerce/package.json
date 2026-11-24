@@ -1,0 +1,31 @@
+{
+  "name": "@oloye/commerce",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OLOYE's independent Medusa v2 commerce backend",
+  "engines": { "node": ">=24.20.0 <25" },
+  "scripts": {
+    "dev": "medusa develop",
+    "start": "medusa start",
+    "build": "medusa build",
+    "check": "tsc --noEmit",
+    "db:migrate": "medusa db:migrate",
+    "user:create": "medusa user"
+  },
+  "dependencies": {
+    "@medusajs/admin-sdk": "2.23.0",
+    "@medusajs/cli": "2.23.0",
+    "@medusajs/framework": "2.23.0",
+    "@medusajs/medusa": "2.23.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@swc/core": "1.16.22",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "6.0.3",
+    "ts-node": "10.9.2"
+  }
+}

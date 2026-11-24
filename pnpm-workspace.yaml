@@ -1,0 +1,22 @@
+packages:
+  - apps/storefront
+  - apps/commerce
+
+# Native build steps explicitly allowed for pnpm 10.
+onlyBuiltDependencies:
+  - '@swc/core'
+  - '@tailwindcss/oxide'
+  - esbuild
+  - msgpackr-extract
+  - protobufjs
+  - sharp
+
+# Telemetry's optional postinstall is not needed to run either application.
+ignoredBuiltDependencies:
+  - '@medusajs/telemetry'
+
+# Medusa Admin requires one copy of these libraries at workspace root.
+overrides:
+  '@tanstack/react-query': 5.107.1
+  react-i18next: 18.0.1
+  react-router-dom: 7.18.5
