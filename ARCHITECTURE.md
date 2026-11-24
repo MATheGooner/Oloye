@@ -23,7 +23,7 @@ oloye/
 │   │   ├── .env.example
 │   │   ├── package.json
 │   │   ├── tsconfig.json
-│   │   └── vite.config.ts             SvelteKit 3 and Node adapter configuration
+│   │   └── vite.config.ts             SvelteKit 3 and Vercel adapter configuration
 │   └── commerce/
 │       ├── src/                      Future Medusa extension points
 │       ├── static/                   Local Medusa file-provider storage (ignored)
@@ -101,7 +101,7 @@ The backend owns schema changes through `medusa db:migrate`. The storefront does
 
 ## Deployment boundaries
 
-The storefront's Node adapter emits its own server artifact. Medusa emits its own server artifact and bundled admin. Each can have separate hosts, release schedules, environment variables and infrastructure, while retaining the HTTP integration boundary.
+The storefront's Vercel adapter emits Build Output API v3 assets and a Node.js 24 server function in `apps/storefront/.vercel/output`, retaining SSR and server routes. Medusa emits its own server artifact and bundled admin. Each can have separate hosts, release schedules, environment variables and infrastructure, while retaining the HTTP integration boundary. See the Vercel dashboard settings in [README.md](README.md).
 
 Application builds do not require the other app to be running. Startup and commerce operations require PostgreSQL; the storefront can run while commerce is offline. Full deployment details and production providers are intentionally left to their milestone.
 

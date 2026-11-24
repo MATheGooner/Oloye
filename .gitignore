@@ -13,6 +13,7 @@ node_modules/
 
 # Generated application output and runtime storage
 .svelte-kit/
+.vercel/
 .medusa/
 build/
 dist/

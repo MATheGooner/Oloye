@@ -14,7 +14,7 @@ The development foundation, visual identity and frontend catalogue milestones ar
 | TypeScript | 6.0.3 | Both applications |
 | Vite | 8.3.8 | Storefront tooling and Medusa's admin bundler |
 | Tailwind CSS | 4.3.5 | Storefront styling through its Vite plugin |
-| SvelteKit Node adapter | 6.0.5 | Independently deployable storefront server |
+| SvelteKit Vercel adapter | 7.0.5 | Storefront SSR through Vercel Node.js functions |
 | Medusa | 2.23.0 | Commerce APIs, modules and standard administration |
 | React / React DOM | 19.3.1 | Medusa's existing admin; storefront uses Svelte |
 | PostgreSQL | 17.12 | Persistent local database |
@@ -70,7 +70,6 @@ Edit the local files:
 | `apps/storefront/.env` | `MEDUSA_BACKEND_URL` | Backend HTTP(S) origin; default `http://localhost:9000` |
 | `apps/storefront/.env` | `MEDUSA_REQUEST_TIMEOUT_MS` | Integer from 1–30000; default `5000` |
 | `apps/storefront/.env` | `MEDUSA_PUBLISHABLE_KEY` | Optional for health checks; required for future Store API requests |
-| `apps/storefront/.env` | `HOST`, `PORT`, `ORIGIN` | Node adapter production binding and public origin; local defaults use port `5173` |
 
 Generate each secret independently, then paste it into the appropriate ignored environment file:
 
@@ -173,7 +172,23 @@ pnpm --filter @oloye/commerce build
 pnpm --filter @oloye/storefront build
 ```
 
-The storefront build emits `apps/storefront/build`. From `apps/storefront`, `pnpm start` loads the local `.env` through Node and starts this build. In deployment, provide environment variables through the platform and run `node build`.
+The storefront uses `@sveltejs/adapter-vercel` in `apps/storefront/vite.config.ts`, the configuration location required by SvelteKit 3. Its build emits `apps/storefront/.vercel/output` using Vercel's Build Output API v3, including static assets and a Node.js 24 server function for SSR and server routes. Use `pnpm preview` from `apps/storefront` to preview a production build locally.
+
+Use Vercel's Linux build for deployment artifacts. On this Windows host, verification used a temporary, Git-ignored helper under `.cache/deployment` to replace denied directory symlinks with junctions and normalize the adapter's Windows handler path. The workaround does not modify the installed adapter or application source. Root checks and builds passed with these local verification settings, and the generated function rendered the homepage, Men/Women collections and search successfully; `/health` correctly returned 503 with an unavailable test backend.
+
+For the storefront Vercel project, open **Settings → Build and Deployment** and use:
+
+| Setting | Value |
+| --- | --- |
+| Framework Preset | `SvelteKit` |
+| Root Directory | `apps/storefront` |
+| Include files outside the root directory in the Build Step | Enabled; keeps the workspace, root package manifest and lockfile accessible |
+| Build Command | Override enabled: `pnpm run build` |
+| Install Command | Override enabled: `pnpm install --frozen-lockfile` |
+| Output Directory | Override disabled; clear the previous `public` value |
+| Node.js Version | `24.x` |
+
+Under **Settings → Environment Variables**, set `ENABLE_EXPERIMENTAL_COREPACK=1` for Production and Preview so Vercel honors the root `packageManager` pin, `pnpm@10.34.9`. Provide the private storefront variables listed above through Vercel when connecting a deployed Medusa backend. The catalogue remains usable independently; `/health` returns 503 until that backend is reachable. Vercel runs the storefront build from its app directory, so it does not run the repository's separate commerce build. Save these settings and redeploy to apply them.
 
 Medusa emits its server and bundled admin under `apps/commerce/.medusa/server`. To deploy commerce independently, use that directory as the deployment artifact, install its runtime dependencies, supply the required environment variables, run migrations and start it with `pnpm start`. Its generated package manifest is independent of the storefront. For a standalone pnpm install, also include the root `.npmrc` hoisting configuration and retain the tested dependency versions.
 
@@ -200,7 +215,8 @@ Official sources checked before dependency installation:
 - [Svelte CLI project creation](https://svelte.dev/docs/cli/sv-create)
 - [SvelteKit 3 configuration and migration requirements](https://svelte.dev/docs/kit/migrating-to-sveltekit-3)
 - [SvelteKit explicit environment variables](https://svelte.dev/docs/kit/environment-variables)
-- [SvelteKit Node adapter](https://svelte.dev/docs/kit/adapter-node)
+- [SvelteKit Vercel adapter](https://svelte.dev/docs/kit/adapter-vercel)
+- [Vercel build settings and Corepack](https://vercel.com/docs/builds/configure-a-build)
 - [Tailwind CSS with SvelteKit](https://tailwindcss.com/docs/installation/framework-guides/sveltekit)
 - [Medusa installation](https://docs.medusajs.com/learn/installation)
 - [Medusa pnpm monorepos](https://docs.medusajs.com/learn/configurations/pnpm)
